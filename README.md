@@ -65,6 +65,11 @@ A more complex case is:
 
 In this command, output path is output/ (pre-created directory), cut sequence's length is 5000, identity is 70%, stability is 1.0, ntMin is 25 nt, ntMax is 1000 nt, penaltyC is 1, penaltyT is -500, distance between TFOs is 10, min length of triplexes is 60 (for more details about parameters, visit the website http://lncRNA.smu.edu.cn).
 
+# Installation guide - Docker
+In order to run inside docker:
+* build the docker image by running `docker build -t fasim . `
+* run the container: `docker run --rm -v $PWD/$PWD cf554a3a867a  -f1 $PWD/testDNA.fa -f2 $PWD/H19.fa -O output/ -lg 40`
+
 ## Help information
 Here is a brief explanation of the command line arguments:
 
