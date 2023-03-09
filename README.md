@@ -2,7 +2,10 @@
 
 This repo is a fork of https://github.com/LongTarget/Fasim-LongTarget
 A dockerfile build the tool inside a container has been added.
+This repo is a fork of https://github.com/LongTarget/Fasim-LongTarget
+A dockerfile build the tool inside a container has been added.
 
+## Installation guide - Docker:
 ## Installation guide - Docker:
 * build the docker image by running `docker build -t fasim . `
 ## Running the container:
