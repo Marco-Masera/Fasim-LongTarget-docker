@@ -1,4 +1,5 @@
 FROM debian
+USER root
 MAINTAINER Ivan Molineris <ivan.molineris@unito.it>
 
 ENV LANG=C LC_ALL=C
