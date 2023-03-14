@@ -31,5 +31,6 @@ def main():
     new_args = " ".join(args)
     system(f"./usr/bin/fasim {new_args}")
 
+
 if __name__ == '__main__':
     main()
